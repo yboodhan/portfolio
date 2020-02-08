@@ -16,7 +16,6 @@ function App() {
         <main>
           <Content />
         </main>
-        
         <Footer />
 
       </div>

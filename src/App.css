@@ -33,3 +33,13 @@ p {
 .indented {
   text-indent: 2em;
 }
+
+.brand-icon {
+  display: inline-block;
+  margin: 1em;
+  padding: 1em;
+}
+
+.brand-icon-dock {
+  padding: 1em;
+}
