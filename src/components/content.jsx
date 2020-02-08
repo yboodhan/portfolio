@@ -23,16 +23,16 @@ const Content = props => {
                 () => <Home typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
             <Route exact path="/projects" render={
-                () => <Projects />
+                () => <Projects typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
             <Route exact path="/resume" render={
-                () => <Resume />
+                () => <Resume typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
             <Route exact path="/about" render={
-                () => <AboutMe />
+                () => <AboutMe typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
             <Route exact path="/contact" render={
-                () => <Contact />
+                () => <Contact typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
         </div>
     )

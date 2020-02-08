@@ -4,7 +4,7 @@ import Typing from 'react-typing-animation';
 
 const Home = props => {
     return (
-        <div className="home">
+        <div className="page">
             <Typing>
                 <p>
                     <Typing.Speed ms={25} />
