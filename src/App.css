@@ -15,4 +15,21 @@
   width: 100vw;
   height: 100vh;
   padding: 4em;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  font-size: 2em;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 400%;
+}
+
+.indented {
+  text-indent: 2em;
 }

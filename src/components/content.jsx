@@ -7,13 +7,20 @@ import Home from './Home';
 import Projects from './Projects';
 import Resume from './Resume';
 
+const typeStyle = {
+    color: 'purple'
+}
+
+const commentStyle = {
+    color: 'green'
+}
 
 
 const Content = props => {
     return (
         <div className="content-container">
             <Route exact path="/" render={
-                () => <Home />
+                () => <Home typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
             <Route exact path="/projects" render={
                 () => <Projects />
