@@ -10,9 +10,9 @@ function App() {
     <div className="app">
       <Navigation />
 
-      <div className="content">
+      <main>
         <Content />
-      </div>
+      </main>
       
       <Footer />
 

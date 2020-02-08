@@ -1,11 +1,11 @@
 import React from 'react'
 
-const PortfolioCard = props => {
+const Contact = props => {
     return (
         <div>
-            Card
+            Contact
         </div>
     )
 }
 
-export default PortfolioCard
+export default Contact
