@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+
+import ClickableIcon from './ClickableIcon';
 
 const Footer = props => {
     return (
         <footer>
+            <ClickableIcon />
             © Copyright 2019 - {new Date().getFullYear()}
             <br />
             All rights reserved. Powered by {` `}
