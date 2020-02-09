@@ -11,25 +11,25 @@ const Resume = props => {
         <div>
         <NavLinks back_link="/projects" back_text="Back to my projects" forward_link="/about" forward_text="Go to about me"/>
         <div className="clear page">
-            <p className="big-text">
+            <div className="big-text">
                 <span style={props.typeStyle}>public void</span> resume() {'{'}
                 <br />
 
                     <div className="indented">
-                        <a href={myResume} target="_blank">
+                        <a href={myResume} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faEye} id="file-download-icon" />{' '}
                             viewResume();
                         </a>
                     </div>
                     <div className="indented">
-                        <a href={myResume} target="_blank" download>
+                        <a href={myResume} target="_blank" rel="noopener noreferrer" download>
                             <FontAwesomeIcon icon={faFileDownload} id="file-download-icon" />{' '}
                             downloadResume();
                         </a>
                     </div>
 
                 {'}'}
-            </p>
+            </div>
         </div>
         </div>
     )

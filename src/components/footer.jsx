@@ -9,17 +9,17 @@ const Footer = props => {
         <footer>
             <div className="brand-icon-dock">
                 <div className="brand-icon">
-                    <a href="https://github.com/yboodhan" target="_blank">
+                    <a href="https://github.com/yboodhan" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon size="3x" icon={faGithub} />
                     </a>
                 </div>
                 <div className="brand-icon">
-                    <a href="https://www.linkedin.com/in/yboodhan/" target="_blank">
+                    <a href="https://www.linkedin.com/in/yboodhan/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon size="3x" icon={faLinkedinIn} />
                     </a>
                 </div>
                 <div className="brand-icon">
-                    <a href="mailto:yboodhan@gmail.com" target="_blank">
+                    <a href="mailto:yboodhan@gmail.com" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon size="3x" icon={faEnvelope} />
                     </a>
                 </div>

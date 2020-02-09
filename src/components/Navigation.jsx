@@ -1,18 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { Collapse, Nav, Navbar, NavbarBrand, NavItem, NavLink } from 'reactstrap';
 
 const Navigation = props => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggle = () => setIsOpen(!isOpen);
 
     return (
         <nav>
             <Navbar color="light" light expand="md">
                 <NavbarBrand href="/" className="nav-logo">yashomaBoodhan()</NavbarBrand>
                 
-                <Collapse isOpen={isOpen} navbar>
+                <Collapse navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem className="nav-link">
                             <NavLink href="/projects">projects()</NavLink>

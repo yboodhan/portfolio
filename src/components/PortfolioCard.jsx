@@ -33,13 +33,13 @@ const PortfolioCard = props => {
                 </div>
                 <br/>
                 <div className="indented">
-                    <a href={props.deployed} target="_blank">
+                    <a href={props.deployed} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGlobe} />{' '}
                         deployedSite();
                     </a>
                 </div>
                 <div className="indented">
-                    <a href={props.github} target="_blank">
+                    <a href={props.github} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} />{' '}
                         githubRepo();
                     </a>

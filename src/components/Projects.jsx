@@ -50,7 +50,7 @@ const Projects = props => {
         <div>
             <NavLinks back_link="/" back_text="Back to home page" forward_link="/resume" forward_text="Go to my resume"/>
             <div className="clear page">
-            <p className="big-text">
+            <div className="big-text">
                 <div>
                 <span style={props.typeStyle}>public void</span> projects() {'{'}
                 <br />
@@ -61,7 +61,7 @@ const Projects = props => {
                 <br />
                 <br />
                 <br />
-            </p>
+            </div>
             </div>
             <div style={sizeStyle}>
                 {myProjects}

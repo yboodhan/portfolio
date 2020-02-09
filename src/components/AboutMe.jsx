@@ -6,7 +6,7 @@ const AboutMe = props => {
         <div>
             <NavLinks back_link="/resume" back_text="Back to my resume" forward_link="/contact" forward_text="Go to my contact info"/>
         <div className="clear page">
-            <p className="small-text">
+            <div className="small-text">
                 <span style={props.typeStyle}>public void</span> aboutMe() {'{'}
                 <br />
                     <div className="indented">
@@ -37,11 +37,11 @@ const AboutMe = props => {
                     While the majority of my time is spent coding, in my free time I enjoy painting and knitting. Both of these activities allow me to create products that I can share and require me to learn more advanced techniques in order to create better products. The freedom to create and constant challenge to learn is what draws me to my hobbies and to coding as well.
                     </div>
                     <div className="indented text-indent">
-                    If you would like to learn more about me, feel free to <a title="linkedin.com/in/yboodhan" href="https://www.linkedin.com/in/yboodhan/" target="_blank">reach out through LinkedIn</a> or to <a title="yboodhan@gmail.com" href="mailto:yboodhan@gmail.com" target="_blank">send me an email</a>. Feel free to check out the rest of my website portfolio or to <a title="github.com/yboodhan" href="https://github.com/yboodhan" target="_blank">view my projects on Github</a>.
+                    If you would like to learn more about me, feel free to <a title="linkedin.com/in/yboodhan" href="https://www.linkedin.com/in/yboodhan/" target="_blank" rel="noopener noreferrer">reach out through LinkedIn</a> or to <a title="yboodhan@gmail.com" href="mailto:yboodhan@gmail.com" target="_blank" rel="noopener noreferrer">send me an email</a>. Feel free to check out the rest of my website portfolio or to <a title="github.com/yboodhan" href="https://github.com/yboodhan" target="_blank" rel="noopener noreferrer">view my projects on Github</a>.
                     </div>
 
                 {'}'}
-            </p>
+            </div>
 
         </div>
         <br />

@@ -7,7 +7,7 @@ const Home = props => {
         <div>
             <Typing>
         <div className="clear page">
-                <p className="big-text">
+                <div className="big-text">
                     <Typing.Speed ms={25} />
                     <span style={props.typeStyle}>public static void</span> main(String[] args) {'{'}
                     <br />
@@ -39,7 +39,7 @@ const Home = props => {
                             <a href="/contact">contact();</a>
                         </div>
                     {'}'}
-                </p>
+                </div>
         </div>
             <div className="forward-link">
                 <a href="/projects">Check out my projects{' '}&rarr;</a>
