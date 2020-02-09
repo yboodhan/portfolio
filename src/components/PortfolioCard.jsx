@@ -3,14 +3,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
+
 const PortfolioCard = props => {
     let features
     if (props.features) {
-        features = "String[] features: {" + props.features + "}"
+        features = "Features: " + props.features
     }
 
     return (
-        <div>
+        <div className="small-text">
             <a name={props.function}></a>
             <span style={props.typeStyle}>public void</span> {props.function}() {'{'}
             <br />
@@ -24,9 +25,7 @@ const PortfolioCard = props => {
                 </div>
                 <br/>
                 <div className="indented">
-                    <div className="indented">
-                        String[] skills: {"{" + props.skills + "}"}
-                    </div>
+                    Skills: {props.skills}
                 </div>
 
                 <div className="indented">
