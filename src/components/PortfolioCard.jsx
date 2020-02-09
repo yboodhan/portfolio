@@ -6,7 +6,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 const PortfolioCard = props => {
     let features
     if (props.features) {
-        features = "[String] features: [" + props.features + "]"
+        features = "String[] features: {" + props.features + "}"
     }
 
     return (
@@ -18,8 +18,15 @@ const PortfolioCard = props => {
                     String name: {"\"" + props.name + "\""}
                 </div>
 
+                <br/>
+                <div className="indented text-indent">
+                    {props.description}
+                </div>
+                <br/>
                 <div className="indented">
-                    [String] skills: {"[" + props.skills + "]"}
+                    <div className="indented">
+                        String[] skills: {"{" + props.skills + "}"}
+                    </div>
                 </div>
 
                 <div className="indented">
@@ -27,22 +34,18 @@ const PortfolioCard = props => {
                 </div>
                 <br/>
                 <div className="indented">
-                    <a href={props.github} target="_blank">
-                        <FontAwesomeIcon icon={faGithub} />{' '}
-                        github();
-                    </a>
-                </div>
-
-                <div className="indented">
                     <a href={props.deployed} target="_blank">
                         <FontAwesomeIcon icon={faGlobe} />{' '}
                         deployedSite();
                     </a>
                 </div>
-                <br/>
-                <div className="indented text-indent">
-                    {props.description}
+                <div className="indented">
+                    <a href={props.github} target="_blank">
+                        <FontAwesomeIcon icon={faGithub} />{' '}
+                        githubRepo();
+                    </a>
                 </div>
+
 
             {'}'}
         </div>
