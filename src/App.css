@@ -22,12 +22,14 @@
 .big-text {
   text-align: left;
   font-size: 2em;
+  margin-top: 1em;
 }
 
 .small-text {
   text-align: left;
   font-size: 1.2em;
   line-height: 200%;
+  margin-top: 2em;
 }
 
 .page {
@@ -53,4 +55,16 @@
 
 .text-indent {
   text-indent: 2em;
+}
+
+.back-link {
+  float: left;
+}
+
+.forward-link {
+  float: right;
+}
+
+.clear {
+  clear:both;
 }

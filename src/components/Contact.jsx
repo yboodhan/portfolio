@@ -3,9 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
+import NavLinks from './NavLinks';
+
 const Contact = props => {
     return (
-        <div className="page">
+        <div>
+            <NavLinks back_link="/about" back_text="Back to about me"/>
+        <div className="clear page">
             <p className="big-text">
                 <span style={props.typeStyle}>public void</span> contact() {'{'}
                 <br />
@@ -32,6 +36,8 @@ const Contact = props => {
                 {'}'}
             </p>
         </div>
+        </div>
+
     )
 }
 

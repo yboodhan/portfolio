@@ -1,8 +1,11 @@
 import React from 'react';
+import NavLinks from './NavLinks';
 
 const AboutMe = props => {
     return (
-        <div className="page">
+        <div>
+            <NavLinks back_link="/resume" back_text="Back to my resume" forward_link="/contact" forward_text="Go to contact"/>
+        <div className="clear page">
             <p className="small-text">
                 <span style={props.typeStyle}>public void</span> aboutMe() {'{'}
                 <br />
@@ -40,6 +43,7 @@ const AboutMe = props => {
                 {'}'}
             </p>
 
+        </div>
         </div>
     )
 }

@@ -4,8 +4,9 @@ import Typing from 'react-typing-animation';
 
 const Home = props => {
     return (
-        <div className="page">
+        <div>
             <Typing>
+        <div className="clear page">
                 <p className="big-text">
                     <Typing.Speed ms={25} />
                     <span style={props.typeStyle}>public static void</span> main(String[] args) {'{'}
@@ -39,6 +40,10 @@ const Home = props => {
                         </div>
                     {'}'}
                 </p>
+        </div>
+            <div className="forward-link">
+                <a href="/projects">Check out my projects{' '}&rarr;</a>
+            </div>
             </Typing>
         </div>
     )
