@@ -10,12 +10,12 @@ const Navigation = props => {
     return (
         <nav>
             <Navbar color="light" light expand="md">
-                <NavbarBrand href="/" className="nav-link">yashomaBoodhan()</NavbarBrand>
+                <NavbarBrand href="/" className="nav-logo">yashomaBoodhan()</NavbarBrand>
                 
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem className="nav-link">
-                            <NavLink href="/projects">myProjects()</NavLink>
+                            <NavLink href="/projects">projects()</NavLink>
                         </NavItem>
                         <NavItem className="nav-link">
                             <NavLink href="/resume">resume()</NavLink>

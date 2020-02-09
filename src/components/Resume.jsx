@@ -7,7 +7,7 @@ import myResume from '../Yashoma_Boodhan_Resume.pdf'
 const Resume = props => {
     return (
         <div className="page">
-            <p>
+            <p className="big-text">
                 <span style={props.typeStyle}>public void</span> resume() {'{'}
                 <br />
 

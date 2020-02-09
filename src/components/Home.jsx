@@ -6,7 +6,7 @@ const Home = props => {
     return (
         <div className="page">
             <Typing>
-                <p>
+                <p className="big-text">
                     <Typing.Speed ms={25} />
                     <span style={props.typeStyle}>public static void</span> main(String[] args) {'{'}
                     <br />
@@ -26,7 +26,7 @@ const Home = props => {
                         </div>
 
                         <div className="indented">
-                            <a href="/projects">myProjects();</a>
+                            <a href="/projects">projects();</a>
                         </div>
                         <div className="indented">
                             <a href="/resume">resume();</a>

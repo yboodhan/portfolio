@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 
 import Navigation from './components/Navigation';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Content from './components/Content';
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
         <main>
           <Content />
         </main>
-        <Footer />
 
       </div>
     </Router>

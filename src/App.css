@@ -8,19 +8,26 @@
 }
 
 .nav-link {
-  margin-right: 4em;
+  margin-right: 2em;
+  margin-left: 2em;
 }
 
 .content-container {
   width: 100vw;
   height: 100vh;
-  padding: 4em;
+  padding: 4em 10em 4em 10em;
   text-align: center;
 }
 
-p {
+.big-text {
   text-align: left;
   font-size: 2em;
+}
+
+.small-text {
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 200%;
 }
 
 .page {
@@ -31,7 +38,7 @@ p {
 }
 
 .indented {
-  text-indent: 2em;
+  padding-left: 2em;
 }
 
 .brand-icon {
@@ -42,4 +49,8 @@ p {
 
 .brand-icon-dock {
   padding: 1em;
+}
+
+.text-indent {
+  text-indent: 2em;
 }
