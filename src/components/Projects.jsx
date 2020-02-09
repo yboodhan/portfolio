@@ -7,10 +7,10 @@ const sizeStyle = {
 }
 let projects = [{
                     function: "meetOut",
-                    name: "Meet Out",
+                    name: "Meet-Out",
                     skills: "Typescript, React, MongoDB, Mongoose, Express, Node, Axios, Reactstrap, Bootstrap, JavaScript, HTML, SASS",
                     features: "JSON Web Tokens, React Big Calendar, Cloudinary, Google Maps",
-                    description: "Do you want to stay physically fit but have a hard time doing so because you dislike the gym? Good news! You can be a part of a health and fitness community that is all about staying fit through outdoor activities such as biking, hiking, swimming, jogging, and much more. Meet Out is a social media and event scheduling app to promote outdoor exercise. Users can create and customize their profile as well as public or private events. A user can view all events in a calendar or navigate through their events in a scrollable list. If you want to get outdoors, meet new people, and stay fit, Meet Out is the app for you!",
+                    description: "Do you want to stay physically fit but have a hard time doing so because you dislike the gym? Good news! You can be a part of a health and fitness community that is all about staying fit through outdoor activities such as biking, hiking, swimming, jogging, and much more. Meet-Out is a social media and event scheduling app to promote outdoor exercise. Users can create and customize their profile as well as public or private events. A user can view all events in a calendar or navigate through their events in a scrollable list. If you want to get outdoors, meet new people, and stay fit, Meet-Out is the app for you!",
                     github: "https://github.com/yboodhan/meet-out",
                     deployed: "https://meeting-out.herokuapp.com/"
                 },{

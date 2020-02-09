@@ -15,9 +15,9 @@ const Contact = props => {
                 <br />
 
                     <div className="indented">
-                        <a title="github.com/yboodhan" href="https://github.com/yboodhan" target="_blank">
-                            <FontAwesomeIcon icon={faGithub} id="github-icon" />{' '}
-                            github();
+                        <a title="yboodhan@gmail.com" href="mailto:yboodhan@gmail.com" target="_blank">
+                            <FontAwesomeIcon icon={faEnvelope} />{' '}
+                            email();
                         </a>
                     </div>
                     <div className="indented">
@@ -27,9 +27,9 @@ const Contact = props => {
                         </a>
                     </div>
                     <div className="indented">
-                        <a title="yboodhan@gmail.com" href="mailto:yboodhan@gmail.com" target="_blank">
-                            <FontAwesomeIcon icon={faEnvelope} />{' '}
-                            email();
+                        <a title="github.com/yboodhan" href="https://github.com/yboodhan" target="_blank">
+                            <FontAwesomeIcon icon={faGithub} id="github-icon" />{' '}
+                            github();
                         </a>
                     </div>
 

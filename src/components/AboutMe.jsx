@@ -18,7 +18,7 @@ const AboutMe = props => {
                     </div>
 
                     <div className="indented">
-                        String degree = "B.E. Chemical Engineering"
+                        String degree = "B.E. Chemical Engineering";
                     </div>
 
                     <div className="indented">
