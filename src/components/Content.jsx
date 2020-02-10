@@ -19,6 +19,9 @@ const commentStyle = {
 const Content = props => {
     return (
         <div className="content-container">
+            <Route exact path="/yboodhan.github.io" render={
+                () => <Redirect to="/" />
+            } />
             <Route exact path="/" render={
                 () => <Home typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
