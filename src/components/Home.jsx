@@ -27,16 +27,16 @@ const Home = props => {
                         </div>
 
                         <div className="indented">
-                            <a href="/projects">projects();</a>
+                            <a href="#/projects">projects();</a>
                         </div>
                         <div className="indented">
-                            <a href="/resume">resume();</a>
+                            <a href="#/resume">resume();</a>
                         </div>
                         <div className="indented">
-                            <a href="/about">aboutMe();</a>
+                            <a href="#/about">aboutMe();</a>
                         </div>
                         <div className="indented">
-                            <a href="/contact">contact();</a>
+                            <a href="#/contact">contact();</a>
                         </div>
                     {'}'}
                 </div>
