@@ -42,7 +42,7 @@ const Home = props => {
                 </div>
         </div>
             <div className="forward-link">
-                <a href="/projects">Check out my projects{' '}&rarr;</a>
+                <a href="#/projects">Check out my projects{' '}&rarr;</a>
             </div>
             </Typing>
         </div>
