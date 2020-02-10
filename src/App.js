@@ -9,7 +9,7 @@ import Content from './components/Content';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="app">
       <a name="top"></a>
         <Navigation />
