@@ -19,22 +19,22 @@ const commentStyle = {
 const Content = props => {
     return (
         <div className="content-container">
-            <Route exact path="/yboodhan.github.io/projects" render={
+            {/* <Route exact path="/yboodhan.github.io/projects" render={
                 () => <Redirect to="/projects" />
-            } />
+            } /> */}
             <Route exact path="/" render={
                 () => <Home typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
-            <Route exact path="/projects" render={
+            <Route path="/projects" render={
                 () => <Projects typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
-            <Route exact path="/resume" render={
+            <Route path="/resume" render={
                 () => <Resume typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
-            <Route exact path="/about" render={
+            <Route path="/about" render={
                 () => <AboutMe typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
-            <Route exact path="/contact" render={
+            <Route path="/contact" render={
                 () => <Contact typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
         </div>
