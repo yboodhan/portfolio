@@ -11,8 +11,7 @@ const PortfolioCard = props => {
     }
 
     return (
-        <div className="small-text">
-            <a name={props.function}></a>
+        <div id={props.function} className="small-text">
             <span style={props.typeStyle}>public void</span> {props.function}() {'{'}
             <br />
                 <div className="indented">

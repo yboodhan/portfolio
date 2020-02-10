@@ -10,8 +10,7 @@ import Content from './components/Content';
 function App() {
   return (
     <Router>
-      <div className="app">
-      <a name="top"></a>
+      <div id="top" className="app">
         <Navigation />
 
         <main>

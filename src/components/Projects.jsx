@@ -1,6 +1,7 @@
 import React from 'react';
 import NavLinks from './NavLinks';
 import PortfolioCard from './PortfolioCard';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const sizeStyle = {
     fontSize: 15
@@ -41,7 +42,7 @@ const Projects = props => {
     let projectLinks = projects.map( project => {
         return (
             <div className="indented">
-                <a href={"#"+project.function}>{project.function}();</a>
+                <Link to={"#"+project.function}>{project.function}();</Link>
             </div>
         )
     })
@@ -68,7 +69,7 @@ const Projects = props => {
             </div>
 
             <br />
-            <a href="#top">Back to top of page</a>
+            <Link to="#top">Back to top of page</Link>
         </div>
     )
 }

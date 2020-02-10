@@ -1,5 +1,6 @@
 import React from 'react';
 import NavLinks from './NavLinks';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const AboutMe = props => {
     return (
@@ -45,7 +46,7 @@ const AboutMe = props => {
 
         </div>
         <br />
-        <a href="#top">Back to top of page</a>
+        <Link to="#top">Back to top of page</Link>
         </div>
     )
 }
