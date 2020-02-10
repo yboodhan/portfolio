@@ -4,7 +4,7 @@ import NavLinks from './NavLinks';
 const AboutMe = props => {
     return (
         <div>
-            <NavLinks back_link="/resume" back_text="Back to my resume" forward_link="/contact" forward_text="Go to my contact info"/>
+            <NavLinks back_link="#/resume" back_text="Back to my resume" forward_link="#/contact" forward_text="Go to my contact info"/>
         <div className="clear page">
             <div className="small-text">
                 <span style={props.typeStyle}>public void</span> aboutMe() {'{'}

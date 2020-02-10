@@ -12,16 +12,16 @@ const Navigation = props => {
                 <Collapse navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem className="nav-link">
-                            <NavLink href="/projects">projects()</NavLink>
+                            <NavLink href="#/projects">projects()</NavLink>
                         </NavItem>
                         <NavItem className="nav-link">
-                            <NavLink href="/resume">resume()</NavLink>
+                            <NavLink href="#/resume">resume()</NavLink>
                         </NavItem>
                         <NavItem className="nav-link">
-                            <NavLink href="/about">aboutMe()</NavLink>
+                            <NavLink href="#/about">aboutMe()</NavLink>
                         </NavItem>
                         <NavItem className="nav-link">
-                            <NavLink href="/contact">contact()</NavLink>
+                            <NavLink href="#/contact">contact()</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

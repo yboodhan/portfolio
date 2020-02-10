@@ -9,7 +9,7 @@ import NavLinks from './NavLinks';
 const Resume = props => {
     return (
         <div>
-        <NavLinks back_link="/projects" back_text="Back to my projects" forward_link="/about" forward_text="Go to about me"/>
+        <NavLinks back_link="#/projects" back_text="Back to my projects" forward_link="#/about" forward_text="Go to about me"/>
         <div className="clear page">
             <div className="big-text">
                 <span style={props.typeStyle}>public void</span> resume() {'{'}

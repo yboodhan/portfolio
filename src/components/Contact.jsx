@@ -8,7 +8,7 @@ import NavLinks from './NavLinks';
 const Contact = props => {
     return (
         <div>
-            <NavLinks back_link="/about" back_text="Back to about me"/>
+            <NavLinks back_link="#/about" back_text="Back to about me"/>
         <div className="clear page">
             <div className="big-text">
                 <span style={props.typeStyle}>public void</span> contact() {'{'}
