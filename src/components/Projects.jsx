@@ -34,15 +34,15 @@ let projects = [{
 
 const Projects = props => {
 
-    let myProjects = projects.map( project => {
+    let myProjects = projects.map( (project, index) => {
         return (
-                <PortfolioCard function={project.function} typeStyle={props.typeStyle} commentStyle={props.commentStyle} name={project.name} skills={project.skills} description={project.description} features={project.features} github={project.github} deployed={project.deployed} />
+                <PortfolioCard key={index} function={project.function} typeStyle={props.typeStyle} commentStyle={props.commentStyle} name={project.name} skills={project.skills} description={project.description} features={project.features} github={project.github} deployed={project.deployed} />
         )
     })
 
-    let projectLinks = projects.map( project => {
+    let projectLinks = projects.map( (project, index) => {
         return (
-            <div className="indented">
+            <div className="indented" key={index}>
                 <Link to={"#"+project.function}>{project.function}();</Link>
             </div>
         )

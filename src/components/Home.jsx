@@ -13,7 +13,7 @@ const Home = props => {
                     <span style={props.typeStyle}>public static void</span> main(String[] args) {'{'}
                     <br />
                         <div className="indented">
-                            <span style={props.commentStyle}>// Hello,{' '}
+                            <span style={props.commentStyle}>{'// Hello,'}{' '}
                                 <Typing.Delay ms={400} />
                                 I'm{' '}
                                 <Typing.Speed ms={50} />
@@ -23,7 +23,7 @@ const Home = props => {
                         <div className="indented">
                             <span style={props.commentStyle}>
                                 <Typing.Delay ms={400} />
-                                // Welcome to my portfolio!
+                                {'// Welcome to my portfolio!'}
                             </span>
                         </div>
 
