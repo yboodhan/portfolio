@@ -1,30 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import { Collapse, Nav, Navbar, NavbarBrand, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
 
 const Navigation = props => {
+
+    const [collapsed, setCollapsed] = useState(true);
+
+    const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
         <nav>
             <Navbar color="light" light expand="md">
                 <NavbarBrand href="/" className="nav-logo">yashomaBoodhan()</NavbarBrand>
-                
-                <Collapse navbar>
-                    <Nav className="mr-auto" navbar>
-                        <NavItem className="nav-link">
+
+                <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+
+                <Collapse isOpen={!collapsed} navbar>
+                <Nav navbar>
+                        <NavItem>
                             <NavLink href="#/projects">projects()</NavLink>
                         </NavItem>
-                        <NavItem className="nav-link">
+                        <NavItem>
                             <NavLink href="#/resume">resume()</NavLink>
                         </NavItem>
-                        <NavItem className="nav-link">
+                        <NavItem>
                             <NavLink href="#/about">aboutMe()</NavLink>
                         </NavItem>
-                        <NavItem className="nav-link">
+                        <NavItem>
                             <NavLink href="#/contact">contact()</NavLink>
                         </NavItem>
-                    </Nav>
+                </Nav>
                 </Collapse>
+                
             </Navbar>
         </nav>
     )
