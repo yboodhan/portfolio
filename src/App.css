@@ -72,3 +72,8 @@
 .back-forward-links {
   margin-top: 1em;
 }
+
+.commented {
+  display: block;
+  color: green;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 import NavLinks from './NavLinks';
 
@@ -16,6 +16,7 @@ const Contact = props => {
                 <br />
 
                     <div className="indented">
+                        {/* <small className="commented">{'//yboodhan@gmail.com'}</small> */}
                         <a title="yboodhan@gmail.com" href="mailto:yboodhan@gmail.com" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faEnvelope} />{' '}
                             email();
@@ -31,6 +32,12 @@ const Contact = props => {
                         <a title="github.com/yboodhan" href="https://github.com/yboodhan" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub} id="github-icon" />{' '}
                             github();
+                        </a>
+                    </div>
+                    <div className="indented">
+                        <a title="+1(347)357-9753" href="tel:347-357-9753">
+                            <FontAwesomeIcon icon={faPhone} id="github-icon" />{' '}
+                            phone();
                         </a>
                     </div>
 
