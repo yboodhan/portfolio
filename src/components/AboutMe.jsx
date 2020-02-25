@@ -47,7 +47,7 @@ const AboutMe = props => {
 
         </div>
         <br />
-        <Link to="#top">Back to top of page</Link>
+        <Link className="back-to-top" to="#top">Back to top of page</Link>
         </Container>
     )
 }
