@@ -40,11 +40,11 @@ const Home = props => {
                             <a href="#/contact">contact();</a>
                         </div>
                     {'}'}
+                    <div className="forward-link">
+                        <a href="#/projects">Start{' '}&rarr;</a>
+                    </div>
                 </div>
         </div>
-            <div className="forward-link">
-                <a href="#/projects">Check out my projects{' '}&rarr;</a>
-            </div>
             </Typing>
         </Container>
     )

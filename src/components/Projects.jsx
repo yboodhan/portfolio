@@ -59,10 +59,6 @@ const Projects = props => {
                     {projectLinks}
                 {'}'}
                 </div>
-                <br />
-                <br />
-                <br />
-                <br />
             </div>
             </div>
             <div style={sizeStyle}>
