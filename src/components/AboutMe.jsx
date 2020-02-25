@@ -6,7 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const AboutMe = props => {
     return (
         <Container>
-            <NavLinks back_link="#/resume" back_text="Back to my resume" forward_link="#/contact" forward_text="Go to my contact info"/>
+            <NavLinks back_link="#/resume" back_text="resume()" forward_link="#/contact" forward_text="contact()"/>
         <div className="clear page">
             <div className="small-text">
                 <span style={props.typeStyle}>public void</span> aboutMe() {'{'}

@@ -50,7 +50,7 @@ const Projects = props => {
 
     return (
         <Container>
-            <NavLinks back_link="/" back_text="Back to home page" forward_link="#/resume" forward_text="Go to my resume"/>
+            <NavLinks back_link="/" back_text="main()" forward_link="#/resume" forward_text="resume()"/>
             <div className="clear page">
             <div className="big-text">
                 <div>
