@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -7,7 +8,7 @@ import NavLinks from './NavLinks';
 
 const Contact = props => {
     return (
-        <div>
+        <Container>
             <NavLinks back_link="#/about" back_text="Back to about me"/>
         <div className="clear page">
             <div className="big-text">
@@ -36,7 +37,7 @@ const Contact = props => {
                 {'}'}
             </div>
         </div>
-        </div>
+        </Container>
 
     )
 }

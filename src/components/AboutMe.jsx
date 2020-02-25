@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 import NavLinks from './NavLinks';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const AboutMe = props => {
     return (
-        <div>
+        <Container>
             <NavLinks back_link="#/resume" back_text="Back to my resume" forward_link="#/contact" forward_text="Go to my contact info"/>
         <div className="clear page">
             <div className="small-text">
@@ -47,7 +48,7 @@ const AboutMe = props => {
         </div>
         <br />
         <Link to="#top">Back to top of page</Link>
-        </div>
+        </Container>
     )
 }
 

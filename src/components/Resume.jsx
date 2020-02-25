@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload, faEye } from '@fortawesome/free-solid-svg-icons';
 import myResume from '../Yashoma_Boodhan_Resume.pdf';
@@ -8,7 +9,7 @@ import NavLinks from './NavLinks';
 
 const Resume = props => {
     return (
-        <div>
+        <Container>
         <NavLinks back_link="#/projects" back_text="Back to my projects" forward_link="#/about" forward_text="Go to about me"/>
         <div className="clear page">
             <div className="big-text">
@@ -31,7 +32,7 @@ const Resume = props => {
                 {'}'}
             </div>
         </div>
-        </div>
+        </Container>
     )
 }
 

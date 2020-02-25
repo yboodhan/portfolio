@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 import { Route, Redirect } from 'react-router-dom';
 
 import AboutMe from './AboutMe';
@@ -18,7 +19,7 @@ const commentStyle = {
 
 const Content = props => {
     return (
-        <div className="content-container">
+        <Container>
             <Route exact path="/" render={
                 () => <Home typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
@@ -34,7 +35,7 @@ const Content = props => {
             <Route path="/contact" render={
                 () => <Contact typeStyle={typeStyle} commentStyle={commentStyle}/>
             } />
-        </div>
+        </Container>
     )
 }
 

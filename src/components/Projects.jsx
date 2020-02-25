@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 import NavLinks from './NavLinks';
 import PortfolioCard from './PortfolioCard';
 import { HashLink as Link } from 'react-router-hash-link';
@@ -48,7 +49,7 @@ const Projects = props => {
     })
 
     return (
-        <div>
+        <Container>
             <NavLinks back_link="/" back_text="Back to home page" forward_link="#/resume" forward_text="Go to my resume"/>
             <div className="clear page">
             <div className="big-text">
@@ -70,7 +71,7 @@ const Projects = props => {
 
             <br />
             <Link to="#top">Back to top of page</Link>
-        </div>
+        </Container>
     )
 }
 

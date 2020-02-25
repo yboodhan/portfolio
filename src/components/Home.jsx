@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 import Typing from 'react-typing-animation';
 
 
 const Home = props => {
     return (
-        <div>
+        <Container>
             <Typing>
         <div className="clear page">
                 <div className="big-text">
@@ -45,7 +46,7 @@ const Home = props => {
                 <a href="#/projects">Check out my projects{' '}&rarr;</a>
             </div>
             </Typing>
-        </div>
+        </Container>
     )
 }
 
