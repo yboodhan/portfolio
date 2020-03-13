@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'reactstrap';
 import NavLinks from './NavLinks';
 import { HashLink as Link } from 'react-router-hash-link';
+import profilePicture from '../profile.jpg';
 
 const AboutMe = props => {
     return (
@@ -11,6 +12,9 @@ const AboutMe = props => {
             <div className="small-text">
                 <span style={props.typeStyle}>public void</span> aboutMe() {'{'}
                 <br />
+                    <div className="profile-photo">
+                        <img className="profile-picture" src = {profilePicture}/>
+                    </div>
                     <div className="indented">
                         String name = "Yashoma Boodhan";
                     </div>
