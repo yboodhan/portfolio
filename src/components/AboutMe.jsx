@@ -12,7 +12,7 @@ const AboutMe = props => {
             <div className="small-text">
                 <span style={props.typeStyle}>public void</span> aboutMe() {'{'}
                 <br />
-                    <div className="profile-photo">
+                    <div className="photo">
                         <img className="profile-picture" src = {profilePicture}/>
                     </div>
                     <div className="indented">

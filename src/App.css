@@ -89,6 +89,10 @@
   padding: 1em;
 }
 
-.profile-photo {
+.photo {
   text-align: center;
+}
+
+.screenshot {
+  height: 20em;
 }

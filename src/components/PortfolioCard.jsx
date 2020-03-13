@@ -18,6 +18,10 @@ const PortfolioCard = props => {
                     String name: {"\"" + props.name + "\""}
                 </div>
 
+                <div className="photo">
+                    <img className="screenshot" src={props.image} />
+                </div>
+
                 <br/>
                 <div className="indented text-indent">
                     {props.description}
