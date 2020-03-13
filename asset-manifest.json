@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.e61c7d63.chunk.css",
-    "main.js": "/static/js/main.33b2691d.chunk.js",
-    "main.js.map": "/static/js/main.33b2691d.chunk.js.map",
+    "main.css": "/static/css/main.a00cb943.chunk.css",
+    "main.js": "/static/js/main.c3a99f50.chunk.js",
+    "main.js.map": "/static/js/main.c3a99f50.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce901adf.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce901adf.js.map",
     "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.1bc3f0d6.chunk.js": "/static/js/2.1bc3f0d6.chunk.js",
-    "static/js/2.1bc3f0d6.chunk.js.map": "/static/js/2.1bc3f0d6.chunk.js.map",
+    "static/js/2.5f753aca.chunk.js": "/static/js/2.5f753aca.chunk.js",
+    "static/js/2.5f753aca.chunk.js.map": "/static/js/2.5f753aca.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ce75f0f993407621351c5d2d0bb7e88f.js": "/precache-manifest.ce75f0f993407621351c5d2d0bb7e88f.js",
+    "precache-manifest.57576c4401cf79a79318fd529dfcf6aa.js": "/precache-manifest.57576c4401cf79a79318fd529dfcf6aa.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.e61c7d63.chunk.css.map": "/static/css/main.e61c7d63.chunk.css.map",
-    "static/js/2.1bc3f0d6.chunk.js.LICENSE.txt": "/static/js/2.1bc3f0d6.chunk.js.LICENSE.txt",
-    "static/media/Yashoma_Boodhan_Resume.pdf": "/static/media/Yashoma_Boodhan_Resume.52385c43.pdf"
+    "static/css/main.a00cb943.chunk.css.map": "/static/css/main.a00cb943.chunk.css.map",
+    "static/js/2.5f753aca.chunk.js.LICENSE.txt": "/static/js/2.5f753aca.chunk.js.LICENSE.txt",
+    "static/media/Yashoma_Boodhan_Resume.pdf": "/static/media/Yashoma_Boodhan_Resume.52385c43.pdf",
+    "static/media/ludo.png": "/static/media/ludo.83460ee1.png",
+    "static/media/meet-out.png": "/static/media/meet-out.7a2c6745.png",
+    "static/media/profile.jpg": "/static/media/profile.b706eac4.jpg",
+    "static/media/yash-yoga.png": "/static/media/yash-yoga.cb74be06.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ce901adf.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.1bc3f0d6.chunk.js",
-    "static/css/main.e61c7d63.chunk.css",
-    "static/js/main.33b2691d.chunk.js"
+    "static/js/2.5f753aca.chunk.js",
+    "static/css/main.a00cb943.chunk.css",
+    "static/js/main.c3a99f50.chunk.js"
   ]
 }
