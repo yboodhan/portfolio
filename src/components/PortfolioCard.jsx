@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'react-bootstrap/Image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
@@ -19,7 +20,7 @@ const PortfolioCard = props => {
                 </div>
 
                 <div className="photo">
-                    <img className="screenshot" src={props.image} />
+                    <Image src={props.image} fluid/>
                 </div>
 
                 <br/>
